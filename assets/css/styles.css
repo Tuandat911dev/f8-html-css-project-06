@@ -305,3 +305,61 @@ a {
 .hero-content-follow__icon:not(.hero-content-follow__icon:first-of-type) {
   margin-left: 20px;
 }
+
+/* =========== Client ============= */
+.client {
+  margin-top: 100px;
+}
+
+.client-title {
+  display: flex;
+  gap: 13px;
+  color: #080415;
+  font-size: 4.2rem;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -0.168rem;
+}
+
+.client-title::before {
+  content: "";
+  display: inline-block;
+  width: 86px;
+  height: 2px;
+  background-color: #5d3bee;
+  margin-top: 22px;
+}
+
+.client-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 34px;
+}
+
+.client-list-first {
+  column-gap: 60px;
+  margin-left: 57px;
+}
+
+.client-list-second {
+  column-gap: 36px;
+  margin-left: 56px;
+}
+
+.client-item {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  cursor: pointer;
+}
+
+.client-item__logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: contain;
+}
+
