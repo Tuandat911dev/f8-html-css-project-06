@@ -968,3 +968,49 @@ a {
   transform: rotate(90deg);
   transform: translate(-50%, -50%) rotate(90deg);
 }
+
+/* ============= Atmosphere ============= */
+.atmosphere {
+  margin-top: 160px;
+}
+
+.atmosphere-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.atmosphere-desc {
+  --width: 45%;
+  margin-top: 20px;
+}
+
+.atmosphere-content__contact {
+  margin-top: 30px;
+  color: #5d3bee;
+  font-size: 3.2rem;
+  font-weight: 500;
+  line-height: 1.25;
+  letter-spacing: -0.128rem;
+}
+
+.atmosphere-list {
+  margin-top: 70px;
+}
+
+.atmosphere-item {
+  width: 100%;
+  height: 529px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.atmosphere-item:hover img {
+  transform: scale(1.06);
+}
+
+.atmosphere-item img {
+  object-fit: cover;
+  transition: 0.5s ease transform;
+}
