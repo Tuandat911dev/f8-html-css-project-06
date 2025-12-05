@@ -226,7 +226,7 @@ a {
   display: flex;
   align-items: flex-end;
   background-color: #fbfaff;
-  height: min(749px, calc(100vh - 120px));
+  height: min(749px, 100vh);
 }
 
 .hero-inner {
@@ -265,7 +265,7 @@ a {
 .hero-media__img {
   display: block;
   width: 514px;
-  height: 705px;
+  height: min(705px, 90%);
   object-fit: cover;
   object-position: bottom center;
   overflow: hidden;

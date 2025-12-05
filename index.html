@@ -33,6 +33,7 @@
     <link rel="stylesheet" href="./assets/css/glide.theme.min.css" />
     <link rel="stylesheet" href="./assets/css/grid.css" />
     <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
   </head>
   <body>
     <header class="header">
@@ -54,6 +55,43 @@
           <a href="#!" class="nav-item">Contact</a>
         </nav>
       </div>
+    </header>
+
+    <header class="small-header">
+      <div class="small-header-inner">
+        <a href="#">
+          <img
+            class="small-header__logo"
+            src="./assets/images/logo.svg"
+            alt=""
+          />
+        </a>
+
+        <div class="small-header__feature">
+          <a href="mailto:abc@gmail.com" class="small-header-feature__wrapper">
+            <img src="./assets/icons/mail.svg" alt="" />
+          </a>
+
+          <input id="smallHeader" type="checkbox" hidden />
+          <label class="small-header-feature__wrapper" for="smallHeader">
+            <img src="./assets/icons/hamberger-menu.svg" alt="" />
+          </label>
+
+          <div class="drawer">
+            <div class="drawer-wrapper">
+              <nav class="small-header-nav">
+                <a href="#!" class="small-nav-item">Projects</a>
+                <a href="#!" class="small-nav-item">Journey</a>
+                <a href="#!" class="small-nav-item">Service</a>
+                <a href="#!" class="small-nav-item">Contact</a>
+              </nav>
+            </div>
+            <label for="smallHeader" class="drawer-overlay"></label>
+          </div>
+        </div>
+      </div>
+
+      <div class="small-header-divider"></div>
     </header>
 
     <main>
