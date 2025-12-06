@@ -231,6 +231,22 @@
   .spec-navigation {
     margin-top: 20px;
   }
+
+  /* project */
+  .project-title {
+    text-align: center;
+  }
+
+  .project-desc {
+    --width: auto;
+    padding-top: 31px;
+    margin-left: 0px;
+    text-align: center;
+  }
+
+  .project-list .row {
+    row-gap: 30px;
+  }
 }
 
 /* ===== Mobile <= 767.98px ===== */
