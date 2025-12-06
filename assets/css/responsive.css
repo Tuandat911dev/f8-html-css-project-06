@@ -6,7 +6,8 @@
 }
 
 @media (width: 1024px) {
-  .client-list-first, .client-list-second {
+  .client-list-first,
+  .client-list-second {
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -215,6 +216,20 @@
   .client .row > * {
     display: flex;
     justify-content: center;
+  }
+
+  /* Specializes */
+  .specializes-list {
+    display: none;
+  }
+
+  .spec-item {
+    display: flex;
+    justify-content: center;
+  }
+
+  .spec-navigation {
+    margin-top: 20px;
   }
 }
 
