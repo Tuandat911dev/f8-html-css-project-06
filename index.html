@@ -58,40 +58,45 @@
     </header>
 
     <header class="small-header">
-      <div class="small-header-inner">
-        <a href="#">
-          <img
-            class="small-header__logo"
-            src="./assets/images/logo.svg"
-            alt=""
-          />
-        </a>
-
-        <div class="small-header__feature">
-          <a href="mailto:abc@gmail.com" class="small-header-feature__wrapper">
-            <img src="./assets/icons/mail.svg" alt="" />
+      <div class="container">
+        <div class="small-header-inner">
+          <a href="#">
+            <img
+              class="small-header__logo"
+              src="./assets/images/small-logo.svg"
+              alt=""
+            />
           </a>
 
-          <input id="smallHeader" type="checkbox" hidden />
-          <label class="small-header-feature__wrapper" for="smallHeader">
-            <img src="./assets/icons/hamberger-menu.svg" alt="" />
-          </label>
+          <div class="small-header__feature">
+            <a
+              href="mailto:abc@gmail.com"
+              class="small-header-feature__wrapper"
+            >
+              <img src="./assets/icons/mail.svg" alt="" />
+            </a>
 
-          <div class="drawer">
-            <div class="drawer-wrapper">
-              <nav class="small-header-nav">
-                <a href="#!" class="small-nav-item">Projects</a>
-                <a href="#!" class="small-nav-item">Journey</a>
-                <a href="#!" class="small-nav-item">Service</a>
-                <a href="#!" class="small-nav-item">Contact</a>
-              </nav>
+            <input id="smallHeader" type="checkbox" hidden />
+            <label class="small-header-feature__wrapper" for="smallHeader">
+              <img src="./assets/icons/hamberger-menu.svg" alt="" />
+            </label>
+
+            <div class="drawer">
+              <div class="drawer-wrapper">
+                <nav class="small-header-nav">
+                  <a href="#!" class="small-nav-item">Projects</a>
+                  <a href="#!" class="small-nav-item">Journey</a>
+                  <a href="#!" class="small-nav-item">Service</a>
+                  <a href="#!" class="small-nav-item">Contact</a>
+                </nav>
+              </div>
+              <label for="smallHeader" class="drawer-overlay"></label>
             </div>
-            <label for="smallHeader" class="drawer-overlay"></label>
           </div>
         </div>
-      </div>
 
-      <div class="small-header-divider"></div>
+        <div class="small-header-divider"></div>
+      </div>
     </header>
 
     <main>
@@ -102,7 +107,7 @@
           <img class="hero-icon-2" src="./assets/icons/bg-icon.svg" alt="" />
           <div class="container">
             <div class="row">
-              <div class="col-lg-5">
+              <div class="col-lg-5 col-md-12">
                 <figure class="hero-media">
                   <img
                     src="./assets/images/hero-man.svg"
@@ -111,7 +116,7 @@
                   />
                 </figure>
               </div>
-              <div class="col-lg-5 offset-lg-2">
+              <div class="col-lg-5 offset-lg-2 col-md-12">
                 <section class="hero-content">
                   <h1 class="hero-content__title">An Interactive Designer</h1>
                   <p class="hero-content__desc">
