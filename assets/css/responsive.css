@@ -11,6 +11,10 @@
   .atmosphere-list-small {
     display: none;
   }
+
+  .footer-bottom-small {
+    display: none;
+  }
 }
 
 @media (width: 1024px) {
@@ -259,7 +263,7 @@
   /* FAQ */
   .faq-title {
     --width: 100%;
-}
+  }
 
   /* Atmosphere */
   .atmosphere-list {
@@ -273,6 +277,58 @@
 
   .atmosphere-navigation {
     margin-top: 30px;
+  }
+
+  /* footer */
+
+  .footer .logo {
+    order: 1;
+    position: static;
+    left: 0;
+    transform: translateX(0);
+  }
+
+  .footer .header-nav {
+    order: 2;
+  }
+
+  .footer .header-email {
+    order: 3;
+    margin-top: 65px;
+  }
+
+  .footer > .header-inner {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    border-bottom: none;
+  }
+
+  .footer-bottom {
+    display: none;
+  }
+
+  .footer-bottom-small {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .divider {
+    height: 1px;
+    background-color: rgb(12, 7, 32, 0.2);
+    width: 100%;
+    order: 2;
+    margin: 29px 0 20px;
+  }
+
+  .footer-bottom-small .footer-bottom-right {
+    order: 1;
+  }
+
+  .footer-bottom-small .copyright {
+    order: 3;
   }
 }
 
