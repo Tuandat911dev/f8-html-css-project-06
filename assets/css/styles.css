@@ -19,6 +19,11 @@ a {
   outline: none;
 }
 
+.container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .btn {
   --width: 170px;
   --height: 62px;
@@ -138,7 +143,7 @@ a {
   height: 100px;
   align-items: center;
   justify-content: space-between;
-  width: min(1330px, 100%);
+  width: min(1330px, calc(100% - 48px));
   margin-left: auto;
   margin-right: auto;
 }
@@ -378,13 +383,13 @@ a {
 }
 
 .client-list-first {
-  column-gap: 60px;
   margin-left: 57px;
+  column-gap: 0px;
 }
 
 .client-list-second {
-  column-gap: 36px;
-  margin-left: 56px;
+  margin-left: 55px;
+  column-gap: 15px;
 }
 
 .client-item {
@@ -392,6 +397,7 @@ a {
   align-items: center;
   gap: 13px;
   cursor: pointer;
+  width: 180px;
 }
 
 .client-item__logo {

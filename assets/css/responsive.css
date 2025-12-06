@@ -1,12 +1,20 @@
-/* ===== Desktop >= 1200px ===== */
-@media (min-width: 1200px) {
+/* ===== Desktop >= 992px ===== */
+@media (min-width: 992px) {
   .small-header {
     display: none;
   }
 }
 
-/* ===== Tablet + Mobile <= 1199.98px ===== */
-@media (max-width: 1199.98px) {
+@media (width: 1024px) {
+  .client-list-first, .client-list-second {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+}
+
+/* ===== Tablet & Mobile < 992px ===== */
+@media (max-width: 991.98px) {
   /* Header */
   .header {
     display: none;
@@ -170,6 +178,43 @@
     left: 50%;
     transform: translateX(-50%);
     bottom: -150px;
+  }
+
+  /* Client */
+  .client-title {
+    position: relative;
+    font-size: 3.8rem;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+
+  .client-title::before {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    content: "";
+    display: inline-block;
+    width: 86px;
+    height: 2px;
+    background-color: #5d3bee;
+    margin-top: 22px;
+  }
+
+  .client-list-second,
+  .client-list-first {
+    margin-left: 0px;
+    column-gap: 34px;
+  }
+
+  .client-list-second {
+    margin-top: 34px;
+  }
+
+  .client .row > * {
+    display: flex;
+    justify-content: center;
   }
 }
 
