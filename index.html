@@ -612,7 +612,7 @@
               </p>
             </div>
 
-            <div class="glide">
+            <div class="glide-comment">
               <div data-glide-el="track" class="glide__track">
                 <div class="comment-list glide__slides">
                   <div class="comment-item glide__slide">
@@ -990,6 +990,47 @@
               </div>
             </div>
           </div>
+
+          <div class="atmosphere-list-small">
+            <div class="glide-atmosphere">
+              <div data-glide-el="track" class="glide__track">
+                <div class="comment-list glide__slides">
+                  <div class="atmosphere-small-item glide__slide">
+                    <div>
+                      <div class="atmosphere-item">
+                        <img src="./assets/images/atmosphere-1.svg" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="atmosphere-small-item glide__slide">
+                    <div>
+                      <div class="atmosphere-item">
+                        <img src="./assets/images/atmosphere-2.svg" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="atmosphere-small-item glide__slide">
+                    <div>
+                      <div class="atmosphere-item">
+                        <img src="./assets/images/atmosphere-3.svg" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="atmosphere-navigation">
+                <div
+                  class="navigation glide__bullets"
+                  data-glide-el="controls[nav]"
+                >
+                  <span class="glide__bullet" data-glide-dir="=0"></span>
+                  <span class="glide__bullet" data-glide-dir="=1"></span>
+                  <span class="glide__bullet" data-glide-dir="=2"></span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -1065,6 +1106,22 @@
 
     <script>
       new Glide(".glide", {
+        type: "carousel",
+        hoverpause: true,
+        perView: 1,
+        hoverpause: true,
+        animationDuration: 500,
+      }).mount();
+
+      new Glide(".glide-atmosphere", {
+        type: "carousel",
+        hoverpause: true,
+        perView: 1,
+        hoverpause: true,
+        animationDuration: 500,
+      }).mount();
+
+      new Glide(".glide-comment", {
         type: "carousel",
         hoverpause: true,
         perView: 1,

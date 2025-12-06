@@ -3,6 +3,14 @@
   .small-header {
     display: none;
   }
+
+  .specializes-small {
+    display: none;
+  }
+
+  .atmosphere-list-small {
+    display: none;
+  }
 }
 
 @media (width: 1024px) {
@@ -246,6 +254,25 @@
 
   .project-list .row {
     row-gap: 30px;
+  }
+
+  /* FAQ */
+  .faq-title {
+    --width: 100%;
+}
+
+  /* Atmosphere */
+  .atmosphere-list {
+    display: none;
+  }
+
+  .atmosphere-small-item {
+    display: flex;
+    justify-content: center;
+  }
+
+  .atmosphere-navigation {
+    margin-top: 30px;
   }
 }
 
