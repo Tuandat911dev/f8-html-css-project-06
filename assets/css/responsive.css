@@ -592,4 +592,27 @@
     width: 33px;
     height: 33px;
   }
+
+  /* atmosphere */
+  .atmosphere {
+    margin-top: 120px;
+  }
+
+  .atmosphere-content .section-title {
+    font-size: 3.6rem;
+    letter-spacing: -0.144rem;
+  }
+
+  .atmosphere-desc {
+    --width: 100%;
+    margin-top: 20px;
+    font-size: 1.6rem;
+  }
+
+  .atmosphere-content__contact {
+    margin-top: 10px;
+    font-size: 2rem;
+    line-height: 2;
+    letter-spacing: -0.08rem;
+  }
 }
