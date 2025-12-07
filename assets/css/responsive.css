@@ -482,4 +482,47 @@
     height: 56px;
     font-size: 1.6rem;
   }
+
+  /* intro */
+  .intro-greeting__text {
+    font-size: 2rem;
+    line-height: 2;
+    letter-spacing: -0.08rem;
+  }
+
+  .intro-content .section-title {
+    font-size: 3.6rem;
+    line-height: 1.67;
+    letter-spacing: -0.144rem;
+  }
+
+  .intro-desc {
+    --width: 100%;
+    margin-top: 15px;
+    font-size: 1.6rem;
+    line-height: 1.6;
+  }
+
+  .statistics-item__number {
+    font-size: 3rem;
+  }
+
+  .intro-statistics {
+    gap: 50px;
+  }
+
+  .statistics-item__content {
+    font-size: 1.6rem;
+    max-width: 83px;
+    white-space: initial;
+  }
+
+  .intro-video-thumb__play {
+    width: 77px;
+    height: 77px;
+  }
+
+  .intro-video-thumb__badge {
+    display: none;
+  }
 }
