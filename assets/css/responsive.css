@@ -525,4 +525,40 @@
   .intro-video-thumb__badge {
     display: none;
   }
+
+  /* Comment */
+  .comment {
+    margin-top: 130px;
+  }
+
+  .comment-title {
+    --width: 100%;
+    font-size: 3.6rem;
+    letter-spacing: -0.144rem;
+  }
+
+  .comment-desc {
+    --width: 100%;
+    font-size: 1.6rem;
+  }
+
+  .comment-item__desc {
+    font-size: 1.8rem;
+    width: 100%;
+  }
+
+  .comment-bg-lg,
+  .comment-bg-sm {
+    width: 90px;
+  }
+
+  .comment-bg-lg {
+    bottom: -170px;
+    left: -32px;
+  }
+
+  .comment-bg-sm {
+    bottom: -170px;
+    right: -32px;
+  }
 }
