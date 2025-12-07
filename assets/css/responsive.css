@@ -204,15 +204,12 @@
 
   .client-title::before {
     position: absolute;
-    top: -30px;
+    top: -10px;
     left: 50%;
     transform: translateX(-50%);
-    content: "";
-    display: inline-block;
-    width: 86px;
+    width: 76px;
     height: 2px;
-    background-color: #5d3bee;
-    margin-top: 22px;
+    margin-top: 0px;
   }
 
   .client-list-second,
@@ -398,5 +395,21 @@
   .hero-icon-1 {
     width: 380px;
     bottom: -130px;
+  }
+
+  /* Client */
+  .client-title {
+    font-size: 2.8rem;
+  }
+
+  .client-title::before {
+    position: absolute;
+    top: -5px;
+    width: 48px;
+  }
+
+  .client-list-first,
+  .client-list-second {
+    column-gap: 0px;
   }
 }
