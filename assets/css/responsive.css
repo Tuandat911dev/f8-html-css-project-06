@@ -615,4 +615,43 @@
     line-height: 2;
     letter-spacing: -0.08rem;
   }
+
+  /* contact */
+  .contact-icon {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+  }
+
+  .contact-title {
+    --width: 225px;
+    font-size: 3.6rem;
+    letter-spacing: -0.144rem;
+  }
+
+  .contact-desc {
+    --width: 100%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 1.6rem;
+  }
+
+  .contact-bg-icon-1,
+  .contact-bg-icon-2 {
+    display: none;
+  }
+
+  .contact-bg-icon-3 {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 420px;
+    height: auto;
+  }
+
+  .contact-content-wrapper .btn {
+    width: 147px;
+    height: 55px;
+    font-size: 1.6rem;
+  }
 }
