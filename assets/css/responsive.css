@@ -414,6 +414,10 @@
   }
 
   /* specializes */
+  .spec-item:hover {
+    transform: none;
+    box-shadow: none;
+  }
   .specializes-content .section-title {
     --width: 100%;
     font-size: 3.6rem;
