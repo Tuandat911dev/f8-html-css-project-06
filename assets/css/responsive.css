@@ -654,4 +654,8 @@
     height: 55px;
     font-size: 1.6rem;
   }
+
+  .header-nav {
+    gap: 20px;
+  }
 }
