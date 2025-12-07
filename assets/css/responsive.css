@@ -412,4 +412,18 @@
   .client-list-second {
     column-gap: 0px;
   }
+
+  /* specializes */
+  .specializes-content .section-title {
+    --width: 100%;
+    font-size: 3.6rem;
+    letter-spacing: -0.144rem;
+  }
+
+  .specializes-desc {
+    --width: 100%;
+    margin-bottom: 60px;
+    font-size: 1.6rem;
+    margin-bottom: 50px;
+  }
 }
