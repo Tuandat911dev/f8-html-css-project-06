@@ -561,4 +561,35 @@
     bottom: -170px;
     right: -32px;
   }
+
+  /* faq */
+  .faq-title {
+    --width: 316px;
+    font-size: 3.6rem;
+    letter-spacing: -0.144rem;
+  }
+
+  .faq-item {
+    padding: 40px 0 15px 10px;
+  }
+
+  .faq-item__question {
+    font-size: 2.4rem;
+    letter-spacing: -0.096rem;
+  }
+
+  .faq-item__answer {
+    --width: 316px;
+    margin-top: 15px;
+  }
+
+  .faq-item__wrapper {
+    max-width: 264px;
+  }
+
+  .faq-item__btn {
+    margin-top: 0px;
+    width: 33px;
+    height: 33px;
+  }
 }
