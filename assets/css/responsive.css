@@ -334,7 +334,7 @@
 
 /* ===== Mobile <= 767.98px ===== */
 @media (max-width: 767.98px) {
-  /* mobile override tablet ở đây */
+  /* Header */
   .small-header__logo {
     width: 37px;
   }
@@ -348,8 +348,55 @@
     width: 70%;
   }
 
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
   /* Hero */
   .hero {
     padding-top: 50.5px;
+  }
+
+  .hero-content__title {
+    width: 100%;
+    font-size: 4.2rem;
+    letter-spacing: -0.168rem;
+  }
+
+  .hero-content__desc {
+    line-height: 1.6;
+    font-size: 1.6rem;
+    max-width: 318px;
+  }
+
+  .hero-content__cta .btn {
+    --width: 147px;
+    --height: 55px;
+    font-size: 1.6rem;
+    line-height: 1.87;
+  }
+
+  .hero-content-cta__work {
+    font-size: 1.6rem;
+    line-height: 1.87;
+  }
+
+  .hero-content-follow__text {
+    font-size: 1.4rem;
+  }
+
+  .hero-content-follow__icon {
+    width: 31px;
+    height: 31px;
+  }
+
+  .hero-media__img {
+    width: 259px;
+  }
+
+  .hero-icon-1 {
+    width: 380px;
+    bottom: -130px;
   }
 }
