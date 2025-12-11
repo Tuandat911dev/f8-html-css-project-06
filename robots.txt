@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tuandat911dev.github.io/f8-html-css-project-06/sitemap.xml
